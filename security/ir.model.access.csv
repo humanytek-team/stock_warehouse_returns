@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_warehouse_return_manager,stock.warehouse.manager,model_stock_warehouse_return,stock.group_stock_manager,1,1,1,1
+access_stock_warehouse_return_user,stock.warehouse.user,model_stock_warehouse_return,base.group_user,1,0,0,0

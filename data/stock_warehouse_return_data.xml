@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+      <record id="warehouse_return_1" model="stock.warehouse.return">
+        <field name="name">DEFECTO DE FABRICACION</field>
+      </record>
+
+      <record id="warehouse_return_2" model="stock.warehouse.return">
+        <field name="name">TALLA NO COINCIDE</field>
+      </record>
+
+      <record id="warehouse_return_3" model="stock.warehouse.return">
+        <field name="name">CAMBIO DE MODELO</field>
+      </record>
+
+      <record id="warehouse_return_4" model="stock.warehouse.return">
+        <field name="name">POR DEFECTO</field>
+      </record>
+
+      <record id="warehouse_return_5" model="stock.warehouse.return">
+        <field name="name">NO LE GUSTO</field>
+      </record>
+
+      <record id="warehouse_return_6" model="stock.warehouse.return">
+        <field name="name">CAMBIO DE TALLA</field>
+      </record>
+
+      <record id="warehouse_return_7" model="stock.warehouse.return">
+        <field name="name">HORMA</field>
+      </record>
+
+    </data>
+</openerp>
