@@ -29,6 +29,7 @@ class StockWarehouseReturn(models.Model):
     _description = 'Posible warehouse returns'
 
     name = fields.Char('Warehouse return', required=True)
+    active = fields.Boolean('Active', default=True)
 
     _sql_constraints = [(
         'return_uniq', 'unique(name)', _('Name should be unique!')
